@@ -1,23 +1,16 @@
-# Template Puppet Module for Boxen
+# Jenkins Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+Setting up Jenkins on OS X is a pain. This puppet module will aim to simplify that process.
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
+boxen::example { 'jenkins':
+  salutation => 'coming soon!'
 }
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+* `?`
